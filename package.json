@@ -1,0 +1,19 @@
+{
+  "name": "harp-server-quickstart",
+  "description": "Local Harp server (+ LiveReload / BrowserSync) quickstart",
+  "author": "Amit Keret",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitkeret/harp-server-quickstart.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/amitkeret/harp-server-quickstart/blob/master/LICENSE"
+  },
+  "devDependencies" : {
+    "coffee-script": "*",
+    "gulp": "*",
+    "harp": "*",
+    "browser-sync": "*"
+  }
+}
