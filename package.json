@@ -14,6 +14,10 @@
     "coffee-script": "*",
     "gulp": "*",
     "harp": "*",
-    "browser-sync": "*"
+    "browser-sync": "*",
+    "execa": "*",
+    "gulp-clean": "*",
+    "gulp-coffeeify": "^0.1.8",
+    "gulp-jsbeautifier": "*"
   }
 }
