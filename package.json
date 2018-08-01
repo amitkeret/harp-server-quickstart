@@ -10,14 +10,21 @@
     "type": "MIT",
     "url": "https://github.com/amitkeret/harp-server-quickstart/blob/master/LICENSE"
   },
-  "devDependencies" : {
-    "coffee-script": "*",
-    "gulp": "*",
-    "harp": "*",
+  "devDependencies": {
     "browser-sync": "*",
+    "browserify": "^16.2.2",
+    "coffeeify": "^3.0.1",
+    "coffeescript": "*",
     "execa": "*",
+    "gulp": "4.0",
     "gulp-clean": "*",
-    "gulp-coffeeify": "^0.1.8",
-    "gulp-jsbeautifier": "*"
+    "gulp-uglify-es": "^1.0.4",
+    "harp": "*",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "optionalDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-jsbeautifier": "^2.1.2",
+    "resolve": "^1.8.1"
   }
 }
